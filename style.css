@@ -129,7 +129,10 @@ ul a {
     text-align: center;
     align-self: center;
     word-break: break-all;
+    padding: 3rem;
 }
+
+
 
 .vantagens{
     background: #fff;
@@ -190,4 +193,46 @@ ul a {
         display: none;
         justify-items: start;
     }
+    
+}
+
+@media(min-width:500px), (min-width:400px),(min-width:300px){
+    h1{
+        font-size: 3rem;
+        margin-top: 2rem;
+        height: 2rem;
+
+        
+    }
+    a{
+        width: 60px;
+    }
+    nav{
+      margin-left: 20%;
+      height: 10rem;
+    }
+    ul {
+       width: 80%;  
+    }
+    .introducao{
+       margin: 2rem;
+       text-align: left;  
+    }
+    .botao{
+        width: 80px;
+        margin: auto auto 35px;
+        
+    }
+    .introducao cover{
+        object-fit: fit;
+    }
+    .subtitulo{
+         padding: 3rem;
+         text-align: center;
+         font-size: 3rem;
+         padding: 3rem;
+         margin: 2rem;
+        }
+
+   
 }
